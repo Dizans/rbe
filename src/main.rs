@@ -1,6 +1,7 @@
 mod ch1_output;
 mod ch2_prime_types;
 mod ch3_self_defined_types;
+mod ch5_types;
 
 #[allow(dead_code)]
 #[derive(Debug)]
@@ -27,4 +28,6 @@ fn main() {
     // 显示链表的最后状态
     println!("linked list has length: {}", list.len());
     println!("{}", list.stringify());
+
+    ch5_types::casting();
 }

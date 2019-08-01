@@ -29,7 +29,7 @@ pub fn practice1(){
     println!("{}",m);
 }
 
-
+#[allow(dead_code)]
 pub fn practice2(){
     // write tanspose function
     fn transpose(m: &Matrix) -> Matrix{

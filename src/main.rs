@@ -2,6 +2,7 @@ mod ch1_output;
 mod ch2_prime_types;
 mod ch3_self_defined_types;
 mod ch5_types;
+mod ch6_conversion;
 
 #[allow(dead_code)]
 #[derive(Debug)]
@@ -30,4 +31,6 @@ fn main() {
     println!("{}", list.stringify());
 
     ch5_types::casting();
+    ch6_conversion::from();
+    ch6_conversion::to_string();
 }
